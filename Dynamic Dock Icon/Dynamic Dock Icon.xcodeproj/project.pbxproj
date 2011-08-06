@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25E6A66913ED39DD00E4F768 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25E6A66813ED39DD00E4F768 /* Cocoa.framework */; };
+		25E6A67313ED39DD00E4F768 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 25E6A67113ED39DD00E4F768 /* InfoPlist.strings */; };
+		25E6A67513ED39DD00E4F768 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25E6A67413ED39DD00E4F768 /* main.m */; };
+		25E6A67913ED39DD00E4F768 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 25E6A67713ED39DD00E4F768 /* Credits.rtf */; };
+		25E6A67C13ED39DD00E4F768 /* Dynamic_Dock_IconAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25E6A67B13ED39DD00E4F768 /* Dynamic_Dock_IconAppDelegate.m */; };
+		25E6A67F13ED39DD00E4F768 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25E6A67D13ED39DD00E4F768 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		25E6A66413ED39DD00E4F768 /* Dynamic Dock Icon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dynamic Dock Icon.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		25E6A66813ED39DD00E4F768 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		25E6A66B13ED39DD00E4F768 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		25E6A66C13ED39DD00E4F768 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		25E6A66D13ED39DD00E4F768 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		25E6A67013ED39DD00E4F768 /* Dynamic Dock Icon-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Dynamic Dock Icon-Info.plist"; sourceTree = "<group>"; };
+		25E6A67213ED39DD00E4F768 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		25E6A67413ED39DD00E4F768 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		25E6A67613ED39DD00E4F768 /* Dynamic Dock Icon-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Dynamic Dock Icon-Prefix.pch"; sourceTree = "<group>"; };
+		25E6A67813ED39DD00E4F768 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		25E6A67A13ED39DD00E4F768 /* Dynamic_Dock_IconAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dynamic_Dock_IconAppDelegate.h; sourceTree = "<group>"; };
+		25E6A67B13ED39DD00E4F768 /* Dynamic_Dock_IconAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dynamic_Dock_IconAppDelegate.m; sourceTree = "<group>"; };
+		25E6A67E13ED39DD00E4F768 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25E6A66113ED39DD00E4F768 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25E6A66913ED39DD00E4F768 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25E6A65913ED39DC00E4F768 = {
+			isa = PBXGroup;
+			children = (
+				25E6A66E13ED39DD00E4F768 /* Dynamic Dock Icon */,
+				25E6A66713ED39DD00E4F768 /* Frameworks */,
+				25E6A66513ED39DD00E4F768 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		25E6A66513ED39DD00E4F768 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25E6A66413ED39DD00E4F768 /* Dynamic Dock Icon.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25E6A66713ED39DD00E4F768 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				25E6A66813ED39DD00E4F768 /* Cocoa.framework */,
+				25E6A66A13ED39DD00E4F768 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		25E6A66A13ED39DD00E4F768 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				25E6A66B13ED39DD00E4F768 /* AppKit.framework */,
+				25E6A66C13ED39DD00E4F768 /* CoreData.framework */,
+				25E6A66D13ED39DD00E4F768 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		25E6A66E13ED39DD00E4F768 /* Dynamic Dock Icon */ = {
+			isa = PBXGroup;
+			children = (
+				25E6A67A13ED39DD00E4F768 /* Dynamic_Dock_IconAppDelegate.h */,
+				25E6A67B13ED39DD00E4F768 /* Dynamic_Dock_IconAppDelegate.m */,
+				25E6A67D13ED39DD00E4F768 /* MainMenu.xib */,
+				25E6A66F13ED39DD00E4F768 /* Supporting Files */,
+			);
+			path = "Dynamic Dock Icon";
+			sourceTree = "<group>";
+		};
+		25E6A66F13ED39DD00E4F768 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				25E6A67013ED39DD00E4F768 /* Dynamic Dock Icon-Info.plist */,
+				25E6A67113ED39DD00E4F768 /* InfoPlist.strings */,
+				25E6A67413ED39DD00E4F768 /* main.m */,
+				25E6A67613ED39DD00E4F768 /* Dynamic Dock Icon-Prefix.pch */,
+				25E6A67713ED39DD00E4F768 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25E6A66313ED39DD00E4F768 /* Dynamic Dock Icon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25E6A68213ED39DD00E4F768 /* Build configuration list for PBXNativeTarget "Dynamic Dock Icon" */;
+			buildPhases = (
+				25E6A66013ED39DD00E4F768 /* Sources */,
+				25E6A66113ED39DD00E4F768 /* Frameworks */,
+				25E6A66213ED39DD00E4F768 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dynamic Dock Icon";
+			productName = "Dynamic Dock Icon";
+			productReference = 25E6A66413ED39DD00E4F768 /* Dynamic Dock Icon.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25E6A65B13ED39DC00E4F768 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = Home;
+			};
+			buildConfigurationList = 25E6A65E13ED39DC00E4F768 /* Build configuration list for PBXProject "Dynamic Dock Icon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 25E6A65913ED39DC00E4F768;
+			productRefGroup = 25E6A66513ED39DD00E4F768 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25E6A66313ED39DD00E4F768 /* Dynamic Dock Icon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25E6A66213ED39DD00E4F768 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25E6A67313ED39DD00E4F768 /* InfoPlist.strings in Resources */,
+				25E6A67913ED39DD00E4F768 /* Credits.rtf in Resources */,
+				25E6A67F13ED39DD00E4F768 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25E6A66013ED39DD00E4F768 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25E6A67513ED39DD00E4F768 /* main.m in Sources */,
+				25E6A67C13ED39DD00E4F768 /* Dynamic_Dock_IconAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		25E6A67113ED39DD00E4F768 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25E6A67213ED39DD00E4F768 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		25E6A67713ED39DD00E4F768 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25E6A67813ED39DD00E4F768 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		25E6A67D13ED39DD00E4F768 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25E6A67E13ED39DD00E4F768 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		25E6A68013ED39DD00E4F768 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		25E6A68113ED39DD00E4F768 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		25E6A68313ED39DD00E4F768 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dynamic Dock Icon/Dynamic Dock Icon-Prefix.pch";
+				INFOPLIST_FILE = "Dynamic Dock Icon/Dynamic Dock Icon-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		25E6A68413ED39DD00E4F768 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dynamic Dock Icon/Dynamic Dock Icon-Prefix.pch";
+				INFOPLIST_FILE = "Dynamic Dock Icon/Dynamic Dock Icon-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25E6A65E13ED39DC00E4F768 /* Build configuration list for PBXProject "Dynamic Dock Icon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25E6A68013ED39DD00E4F768 /* Debug */,
+				25E6A68113ED39DD00E4F768 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25E6A68213ED39DD00E4F768 /* Build configuration list for PBXNativeTarget "Dynamic Dock Icon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25E6A68313ED39DD00E4F768 /* Debug */,
+				25E6A68413ED39DD00E4F768 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 25E6A65B13ED39DC00E4F768 /* Project object */;
+}
