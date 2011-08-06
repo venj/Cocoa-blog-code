@@ -1,0 +1,301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25EFE2A013EC274C0075CA6D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25EFE29F13EC274C0075CA6D /* UIKit.framework */; };
+		25EFE2A213EC274C0075CA6D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25EFE2A113EC274C0075CA6D /* Foundation.framework */; };
+		25EFE2A413EC274C0075CA6D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25EFE2A313EC274C0075CA6D /* CoreGraphics.framework */; };
+		25EFE2AA13EC274C0075CA6D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 25EFE2A813EC274C0075CA6D /* InfoPlist.strings */; };
+		25EFE2AC13EC274C0075CA6D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25EFE2AB13EC274C0075CA6D /* main.m */; };
+		25EFE2B013EC274C0075CA6D /* WikiViewAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25EFE2AF13EC274C0075CA6D /* WikiViewAppDelegate.m */; };
+		25EFE2B313EC274C0075CA6D /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25EFE2B113EC274C0075CA6D /* MainWindow.xib */; };
+		25EFE2C113EC27820075CA6D /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25EFE2BF13EC27820075CA6D /* SearchViewController.m */; };
+		25EFE2C213EC27820075CA6D /* SearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25EFE2C013EC27820075CA6D /* SearchViewController.xib */; };
+		25EFE2C613EC290E0075CA6D /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25EFE2C413EC290E0075CA6D /* WebViewController.m */; };
+		25EFE2C713EC290E0075CA6D /* WebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25EFE2C513EC290E0075CA6D /* WebViewController.xib */; };
+		25EFE2CE13EC44990075CA6D /* BezelsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 25EFE2CD13EC44990075CA6D /* BezelsView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		25EFE29B13EC274C0075CA6D /* WikiView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WikiView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		25EFE29F13EC274C0075CA6D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		25EFE2A113EC274C0075CA6D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		25EFE2A313EC274C0075CA6D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		25EFE2A713EC274C0075CA6D /* WikiView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WikiView-Info.plist"; sourceTree = "<group>"; };
+		25EFE2A913EC274C0075CA6D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		25EFE2AB13EC274C0075CA6D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		25EFE2AD13EC274C0075CA6D /* WikiView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WikiView-Prefix.pch"; sourceTree = "<group>"; };
+		25EFE2AE13EC274C0075CA6D /* WikiViewAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WikiViewAppDelegate.h; sourceTree = "<group>"; };
+		25EFE2AF13EC274C0075CA6D /* WikiViewAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WikiViewAppDelegate.m; sourceTree = "<group>"; };
+		25EFE2B213EC274C0075CA6D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		25EFE2BE13EC27820075CA6D /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		25EFE2BF13EC27820075CA6D /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		25EFE2C013EC27820075CA6D /* SearchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchViewController.xib; sourceTree = "<group>"; };
+		25EFE2C313EC290E0075CA6D /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		25EFE2C413EC290E0075CA6D /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		25EFE2C513EC290E0075CA6D /* WebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WebViewController.xib; sourceTree = "<group>"; };
+		25EFE2CC13EC44990075CA6D /* BezelsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BezelsView.h; sourceTree = "<group>"; };
+		25EFE2CD13EC44990075CA6D /* BezelsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BezelsView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25EFE29813EC274C0075CA6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25EFE2A013EC274C0075CA6D /* UIKit.framework in Frameworks */,
+				25EFE2A213EC274C0075CA6D /* Foundation.framework in Frameworks */,
+				25EFE2A413EC274C0075CA6D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25EFE29013EC274C0075CA6D = {
+			isa = PBXGroup;
+			children = (
+				25EFE2A513EC274C0075CA6D /* WikiView */,
+				25EFE29E13EC274C0075CA6D /* Frameworks */,
+				25EFE29C13EC274C0075CA6D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		25EFE29C13EC274C0075CA6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25EFE29B13EC274C0075CA6D /* WikiView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25EFE29E13EC274C0075CA6D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				25EFE29F13EC274C0075CA6D /* UIKit.framework */,
+				25EFE2A113EC274C0075CA6D /* Foundation.framework */,
+				25EFE2A313EC274C0075CA6D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		25EFE2A513EC274C0075CA6D /* WikiView */ = {
+			isa = PBXGroup;
+			children = (
+				25EFE2AE13EC274C0075CA6D /* WikiViewAppDelegate.h */,
+				25EFE2AF13EC274C0075CA6D /* WikiViewAppDelegate.m */,
+				25EFE2B113EC274C0075CA6D /* MainWindow.xib */,
+				25EFE2BE13EC27820075CA6D /* SearchViewController.h */,
+				25EFE2BF13EC27820075CA6D /* SearchViewController.m */,
+				25EFE2C013EC27820075CA6D /* SearchViewController.xib */,
+				25EFE2C313EC290E0075CA6D /* WebViewController.h */,
+				25EFE2C413EC290E0075CA6D /* WebViewController.m */,
+				25EFE2C513EC290E0075CA6D /* WebViewController.xib */,
+				25EFE2CC13EC44990075CA6D /* BezelsView.h */,
+				25EFE2CD13EC44990075CA6D /* BezelsView.m */,
+				25EFE2A613EC274C0075CA6D /* Supporting Files */,
+			);
+			path = WikiView;
+			sourceTree = "<group>";
+		};
+		25EFE2A613EC274C0075CA6D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				25EFE2A713EC274C0075CA6D /* WikiView-Info.plist */,
+				25EFE2A813EC274C0075CA6D /* InfoPlist.strings */,
+				25EFE2AB13EC274C0075CA6D /* main.m */,
+				25EFE2AD13EC274C0075CA6D /* WikiView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25EFE29A13EC274C0075CA6D /* WikiView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25EFE2B613EC274C0075CA6D /* Build configuration list for PBXNativeTarget "WikiView" */;
+			buildPhases = (
+				25EFE29713EC274C0075CA6D /* Sources */,
+				25EFE29813EC274C0075CA6D /* Frameworks */,
+				25EFE29913EC274C0075CA6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WikiView;
+			productName = WikiView;
+			productReference = 25EFE29B13EC274C0075CA6D /* WikiView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25EFE29213EC274C0075CA6D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = Home;
+			};
+			buildConfigurationList = 25EFE29513EC274C0075CA6D /* Build configuration list for PBXProject "WikiView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 25EFE29013EC274C0075CA6D;
+			productRefGroup = 25EFE29C13EC274C0075CA6D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25EFE29A13EC274C0075CA6D /* WikiView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25EFE29913EC274C0075CA6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25EFE2AA13EC274C0075CA6D /* InfoPlist.strings in Resources */,
+				25EFE2B313EC274C0075CA6D /* MainWindow.xib in Resources */,
+				25EFE2C213EC27820075CA6D /* SearchViewController.xib in Resources */,
+				25EFE2C713EC290E0075CA6D /* WebViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25EFE29713EC274C0075CA6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25EFE2AC13EC274C0075CA6D /* main.m in Sources */,
+				25EFE2B013EC274C0075CA6D /* WikiViewAppDelegate.m in Sources */,
+				25EFE2C113EC27820075CA6D /* SearchViewController.m in Sources */,
+				25EFE2C613EC290E0075CA6D /* WebViewController.m in Sources */,
+				25EFE2CE13EC44990075CA6D /* BezelsView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		25EFE2A813EC274C0075CA6D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25EFE2A913EC274C0075CA6D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		25EFE2B113EC274C0075CA6D /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25EFE2B213EC274C0075CA6D /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		25EFE2B413EC274C0075CA6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		25EFE2B513EC274C0075CA6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		25EFE2B713EC274C0075CA6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WikiView/WikiView-Prefix.pch";
+				INFOPLIST_FILE = "WikiView/WikiView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		25EFE2B813EC274C0075CA6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WikiView/WikiView-Prefix.pch";
+				INFOPLIST_FILE = "WikiView/WikiView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25EFE29513EC274C0075CA6D /* Build configuration list for PBXProject "WikiView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25EFE2B413EC274C0075CA6D /* Debug */,
+				25EFE2B513EC274C0075CA6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25EFE2B613EC274C0075CA6D /* Build configuration list for PBXNativeTarget "WikiView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25EFE2B713EC274C0075CA6D /* Debug */,
+				25EFE2B813EC274C0075CA6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 25EFE29213EC274C0075CA6D /* Project object */;
+}
