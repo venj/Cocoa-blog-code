@@ -5,3 +5,4 @@
 *.xcuserstate
 project.xcworkspace/
 xcuserdata/
+*.framework
