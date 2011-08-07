@@ -11,5 +11,6 @@ Projects & blog link:
   Code mentioned in the blog is in **BezelsView.m**
 * FileExchange - http://cocoapps.blogspot.com/2011/08/ios-appitunes.html (让iOS App通过iTunes进行文件交换)
 * Whereami - http://cocoapps.blogspot.com/2011/07/ios-5geocoding.html (iOS 5的Geocoding)
+* RTF2HTML - http://cocoapps.blogspot.com/2011/06/nsattributedstringhtml.html (再谈NSAttributedString转HTML)
 
 More projects to come.

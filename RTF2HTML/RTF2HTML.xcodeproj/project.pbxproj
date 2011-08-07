@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25FF42DF13609BE400426DDB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25FF42DE13609BE400426DDB /* Cocoa.framework */; };
+		25FF42E913609BE400426DDB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 25FF42E713609BE400426DDB /* InfoPlist.strings */; };
+		25FF42EC13609BE400426DDB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25FF42EB13609BE400426DDB /* main.m */; };
+		25FF42EF13609BE400426DDB /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 25FF42ED13609BE400426DDB /* Credits.rtf */; };
+		25FF42F213609BE400426DDB /* RTF2HTMLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25FF42F113609BE400426DDB /* RTF2HTMLAppDelegate.m */; };
+		25FF42F513609BE400426DDB /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25FF42F313609BE400426DDB /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		25FF42DA13609BE400426DDB /* RTF2HTML.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RTF2HTML.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		25FF42DE13609BE400426DDB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		25FF42E113609BE400426DDB /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		25FF42E213609BE400426DDB /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		25FF42E313609BE400426DDB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		25FF42E613609BE400426DDB /* RTF2HTML-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RTF2HTML-Info.plist"; sourceTree = "<group>"; };
+		25FF42E813609BE400426DDB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		25FF42EA13609BE400426DDB /* RTF2HTML-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RTF2HTML-Prefix.pch"; sourceTree = "<group>"; };
+		25FF42EB13609BE400426DDB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		25FF42EE13609BE400426DDB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		25FF42F013609BE400426DDB /* RTF2HTMLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTF2HTMLAppDelegate.h; sourceTree = "<group>"; };
+		25FF42F113609BE400426DDB /* RTF2HTMLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTF2HTMLAppDelegate.m; sourceTree = "<group>"; };
+		25FF42F413609BE400426DDB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25FF42D713609BE400426DDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25FF42DF13609BE400426DDB /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25FF42CF13609BE300426DDB = {
+			isa = PBXGroup;
+			children = (
+				25FF42E413609BE400426DDB /* RTF2HTML */,
+				25FF42DD13609BE400426DDB /* Frameworks */,
+				25FF42DB13609BE400426DDB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		25FF42DB13609BE400426DDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25FF42DA13609BE400426DDB /* RTF2HTML.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25FF42DD13609BE400426DDB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				25FF42DE13609BE400426DDB /* Cocoa.framework */,
+				25FF42E013609BE400426DDB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		25FF42E013609BE400426DDB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				25FF42E113609BE400426DDB /* AppKit.framework */,
+				25FF42E213609BE400426DDB /* CoreData.framework */,
+				25FF42E313609BE400426DDB /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		25FF42E413609BE400426DDB /* RTF2HTML */ = {
+			isa = PBXGroup;
+			children = (
+				25FF42F013609BE400426DDB /* RTF2HTMLAppDelegate.h */,
+				25FF42F113609BE400426DDB /* RTF2HTMLAppDelegate.m */,
+				25FF42F313609BE400426DDB /* MainMenu.xib */,
+				25FF42E513609BE400426DDB /* Supporting Files */,
+			);
+			path = RTF2HTML;
+			sourceTree = "<group>";
+		};
+		25FF42E513609BE400426DDB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				25FF42E613609BE400426DDB /* RTF2HTML-Info.plist */,
+				25FF42E713609BE400426DDB /* InfoPlist.strings */,
+				25FF42EA13609BE400426DDB /* RTF2HTML-Prefix.pch */,
+				25FF42EB13609BE400426DDB /* main.m */,
+				25FF42ED13609BE400426DDB /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25FF42D913609BE400426DDB /* RTF2HTML */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25FF42F813609BE400426DDB /* Build configuration list for PBXNativeTarget "RTF2HTML" */;
+			buildPhases = (
+				25FF42D613609BE400426DDB /* Sources */,
+				25FF42D713609BE400426DDB /* Frameworks */,
+				25FF42D813609BE400426DDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RTF2HTML;
+			productName = RTF2HTML;
+			productReference = 25FF42DA13609BE400426DDB /* RTF2HTML.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25FF42D113609BE400426DDB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = Home;
+			};
+			buildConfigurationList = 25FF42D413609BE400426DDB /* Build configuration list for PBXProject "RTF2HTML" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 25FF42CF13609BE300426DDB;
+			productRefGroup = 25FF42DB13609BE400426DDB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25FF42D913609BE400426DDB /* RTF2HTML */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25FF42D813609BE400426DDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25FF42E913609BE400426DDB /* InfoPlist.strings in Resources */,
+				25FF42EF13609BE400426DDB /* Credits.rtf in Resources */,
+				25FF42F513609BE400426DDB /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25FF42D613609BE400426DDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25FF42EC13609BE400426DDB /* main.m in Sources */,
+				25FF42F213609BE400426DDB /* RTF2HTMLAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		25FF42E713609BE400426DDB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25FF42E813609BE400426DDB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		25FF42ED13609BE400426DDB /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25FF42EE13609BE400426DDB /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		25FF42F313609BE400426DDB /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25FF42F413609BE400426DDB /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		25FF42F613609BE400426DDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		25FF42F713609BE400426DDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		25FF42F913609BE400426DDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RTF2HTML/RTF2HTML-Prefix.pch";
+				INFOPLIST_FILE = "RTF2HTML/RTF2HTML-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		25FF42FA13609BE400426DDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RTF2HTML/RTF2HTML-Prefix.pch";
+				INFOPLIST_FILE = "RTF2HTML/RTF2HTML-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25FF42D413609BE400426DDB /* Build configuration list for PBXProject "RTF2HTML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25FF42F613609BE400426DDB /* Debug */,
+				25FF42F713609BE400426DDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25FF42F813609BE400426DDB /* Build configuration list for PBXNativeTarget "RTF2HTML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25FF42F913609BE400426DDB /* Debug */,
+				25FF42FA13609BE400426DDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 25FF42D113609BE400426DDB /* Project object */;
+}
