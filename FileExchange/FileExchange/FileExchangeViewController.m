@@ -21,7 +21,6 @@
 
 #pragma mark - View lifecycle
 
-
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad
 {
@@ -29,7 +28,8 @@
     //NSLog(@"%@", NSHomeDirectory());
     
     NSFileManager *manager = [NSFileManager defaultManager];
-    NSString *dbPath = [[NSHomeDirectory() stringByAppendingPathComponent:@"Documents"] stringByAppendingPathComponent:@"db.sqlite"];
+    
+    NSString *dbPath = [[NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) objectAtIndex:0] stringByAppendingPathComponent:@"db.sqlite"];
     
     if ([manager fileExistsAtPath:dbPath]) {
         self.statusMessage.text = @"Ready To Go";
