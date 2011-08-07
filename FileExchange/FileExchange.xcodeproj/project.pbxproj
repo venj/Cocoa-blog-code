@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25BB0C6813EE42090023449E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25BB0C6713EE42090023449E /* UIKit.framework */; };
+		25BB0C6A13EE42090023449E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25BB0C6913EE42090023449E /* Foundation.framework */; };
+		25BB0C6C13EE42090023449E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25BB0C6B13EE42090023449E /* CoreGraphics.framework */; };
+		25BB0C7213EE42090023449E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 25BB0C7013EE42090023449E /* InfoPlist.strings */; };
+		25BB0C7413EE42090023449E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25BB0C7313EE42090023449E /* main.m */; };
+		25BB0C7813EE42090023449E /* FileExchangeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25BB0C7713EE42090023449E /* FileExchangeAppDelegate.m */; };
+		25BB0C7B13EE42090023449E /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25BB0C7913EE42090023449E /* MainWindow.xib */; };
+		25BB0C7E13EE42090023449E /* FileExchangeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25BB0C7D13EE42090023449E /* FileExchangeViewController.m */; };
+		25BB0C8113EE42090023449E /* FileExchangeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25BB0C7F13EE42090023449E /* FileExchangeViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		25BB0C6313EE42090023449E /* FileExchange.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FileExchange.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		25BB0C6713EE42090023449E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		25BB0C6913EE42090023449E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		25BB0C6B13EE42090023449E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		25BB0C6F13EE42090023449E /* FileExchange-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FileExchange-Info.plist"; sourceTree = "<group>"; };
+		25BB0C7113EE42090023449E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		25BB0C7313EE42090023449E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		25BB0C7513EE42090023449E /* FileExchange-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FileExchange-Prefix.pch"; sourceTree = "<group>"; };
+		25BB0C7613EE42090023449E /* FileExchangeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FileExchangeAppDelegate.h; sourceTree = "<group>"; };
+		25BB0C7713EE42090023449E /* FileExchangeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FileExchangeAppDelegate.m; sourceTree = "<group>"; };
+		25BB0C7A13EE42090023449E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		25BB0C7C13EE42090023449E /* FileExchangeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FileExchangeViewController.h; sourceTree = "<group>"; };
+		25BB0C7D13EE42090023449E /* FileExchangeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FileExchangeViewController.m; sourceTree = "<group>"; };
+		25BB0C8013EE42090023449E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FileExchangeViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25BB0C6013EE42090023449E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25BB0C6813EE42090023449E /* UIKit.framework in Frameworks */,
+				25BB0C6A13EE42090023449E /* Foundation.framework in Frameworks */,
+				25BB0C6C13EE42090023449E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25BB0C5813EE42090023449E = {
+			isa = PBXGroup;
+			children = (
+				25BB0C6D13EE42090023449E /* FileExchange */,
+				25BB0C6613EE42090023449E /* Frameworks */,
+				25BB0C6413EE42090023449E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		25BB0C6413EE42090023449E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25BB0C6313EE42090023449E /* FileExchange.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25BB0C6613EE42090023449E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				25BB0C6713EE42090023449E /* UIKit.framework */,
+				25BB0C6913EE42090023449E /* Foundation.framework */,
+				25BB0C6B13EE42090023449E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		25BB0C6D13EE42090023449E /* FileExchange */ = {
+			isa = PBXGroup;
+			children = (
+				25BB0C7613EE42090023449E /* FileExchangeAppDelegate.h */,
+				25BB0C7713EE42090023449E /* FileExchangeAppDelegate.m */,
+				25BB0C7913EE42090023449E /* MainWindow.xib */,
+				25BB0C7C13EE42090023449E /* FileExchangeViewController.h */,
+				25BB0C7D13EE42090023449E /* FileExchangeViewController.m */,
+				25BB0C7F13EE42090023449E /* FileExchangeViewController.xib */,
+				25BB0C6E13EE42090023449E /* Supporting Files */,
+			);
+			path = FileExchange;
+			sourceTree = "<group>";
+		};
+		25BB0C6E13EE42090023449E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				25BB0C6F13EE42090023449E /* FileExchange-Info.plist */,
+				25BB0C7013EE42090023449E /* InfoPlist.strings */,
+				25BB0C7313EE42090023449E /* main.m */,
+				25BB0C7513EE42090023449E /* FileExchange-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25BB0C6213EE42090023449E /* FileExchange */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25BB0C8413EE42090023449E /* Build configuration list for PBXNativeTarget "FileExchange" */;
+			buildPhases = (
+				25BB0C5F13EE42090023449E /* Sources */,
+				25BB0C6013EE42090023449E /* Frameworks */,
+				25BB0C6113EE42090023449E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FileExchange;
+			productName = FileExchange;
+			productReference = 25BB0C6313EE42090023449E /* FileExchange.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25BB0C5A13EE42090023449E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = Home;
+			};
+			buildConfigurationList = 25BB0C5D13EE42090023449E /* Build configuration list for PBXProject "FileExchange" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 25BB0C5813EE42090023449E;
+			productRefGroup = 25BB0C6413EE42090023449E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25BB0C6213EE42090023449E /* FileExchange */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25BB0C6113EE42090023449E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25BB0C7213EE42090023449E /* InfoPlist.strings in Resources */,
+				25BB0C7B13EE42090023449E /* MainWindow.xib in Resources */,
+				25BB0C8113EE42090023449E /* FileExchangeViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25BB0C5F13EE42090023449E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25BB0C7413EE42090023449E /* main.m in Sources */,
+				25BB0C7813EE42090023449E /* FileExchangeAppDelegate.m in Sources */,
+				25BB0C7E13EE42090023449E /* FileExchangeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		25BB0C7013EE42090023449E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25BB0C7113EE42090023449E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		25BB0C7913EE42090023449E /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25BB0C7A13EE42090023449E /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		25BB0C7F13EE42090023449E /* FileExchangeViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25BB0C8013EE42090023449E /* en */,
+			);
+			name = FileExchangeViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		25BB0C8213EE42090023449E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		25BB0C8313EE42090023449E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		25BB0C8513EE42090023449E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FileExchange/FileExchange-Prefix.pch";
+				INFOPLIST_FILE = "FileExchange/FileExchange-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		25BB0C8613EE42090023449E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FileExchange/FileExchange-Prefix.pch";
+				INFOPLIST_FILE = "FileExchange/FileExchange-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25BB0C5D13EE42090023449E /* Build configuration list for PBXProject "FileExchange" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25BB0C8213EE42090023449E /* Debug */,
+				25BB0C8313EE42090023449E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25BB0C8413EE42090023449E /* Build configuration list for PBXNativeTarget "FileExchange" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25BB0C8513EE42090023449E /* Debug */,
+				25BB0C8613EE42090023449E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 25BB0C5A13EE42090023449E /* Project object */;
+}
