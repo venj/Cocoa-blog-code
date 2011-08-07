@@ -12,5 +12,7 @@ Projects & blog link:
 * FileExchange - http://cocoapps.blogspot.com/2011/08/ios-appitunes.html (让iOS App通过iTunes进行文件交换)
 * Whereami - http://cocoapps.blogspot.com/2011/07/ios-5geocoding.html (iOS 5的Geocoding)
 * RTF2HTML - http://cocoapps.blogspot.com/2011/06/nsattributedstringhtml.html (再谈NSAttributedString转HTML)
+* GrowlTest - http://cocoapps.blogspot.com/2011/05/growlgrowlframework.html (为应用程序增加Growl支持（上）：在项目中加入Growl.Framework)
+  http://cocoapps.blogspot.com/2011/05/growlgrowl.html (为应用程序增加Growl支持（下）：在代码中应用Growl)
 
 More projects to come.
