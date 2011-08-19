@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Round Corner Image' target in the 'Round Corner Image' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

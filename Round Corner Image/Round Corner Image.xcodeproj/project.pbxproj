@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2542F1C613FEB126003B0614 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2542F1C513FEB126003B0614 /* Cocoa.framework */; };
+		2542F1D013FEB126003B0614 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2542F1CE13FEB126003B0614 /* InfoPlist.strings */; };
+		2542F1D213FEB126003B0614 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2542F1D113FEB126003B0614 /* main.m */; };
+		2542F1D613FEB126003B0614 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2542F1D413FEB126003B0614 /* Credits.rtf */; };
+		2542F1D913FEB126003B0614 /* Round_Corner_ImageAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2542F1D813FEB126003B0614 /* Round_Corner_ImageAppDelegate.m */; };
+		2542F1DC13FEB126003B0614 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2542F1DA13FEB126003B0614 /* MainMenu.xib */; };
+		2542F1E313FEB3CD003B0614 /* image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2542F1E213FEB3CD003B0614 /* image.jpg */; };
+		2542F1E613FEC016003B0614 /* NSImage+RoundCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = 2542F1E513FEC016003B0614 /* NSImage+RoundCorner.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2542F1C113FEB126003B0614 /* Round Corner Image.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Round Corner Image.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2542F1C513FEB126003B0614 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		2542F1C813FEB126003B0614 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		2542F1C913FEB126003B0614 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		2542F1CA13FEB126003B0614 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2542F1CD13FEB126003B0614 /* Round Corner Image-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Round Corner Image-Info.plist"; sourceTree = "<group>"; };
+		2542F1CF13FEB126003B0614 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2542F1D113FEB126003B0614 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2542F1D313FEB126003B0614 /* Round Corner Image-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Round Corner Image-Prefix.pch"; sourceTree = "<group>"; };
+		2542F1D513FEB126003B0614 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		2542F1D713FEB126003B0614 /* Round_Corner_ImageAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Round_Corner_ImageAppDelegate.h; sourceTree = "<group>"; };
+		2542F1D813FEB126003B0614 /* Round_Corner_ImageAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Round_Corner_ImageAppDelegate.m; sourceTree = "<group>"; };
+		2542F1DB13FEB126003B0614 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		2542F1E213FEB3CD003B0614 /* image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image.jpg; sourceTree = "<group>"; };
+		2542F1E413FEC016003B0614 /* NSImage+RoundCorner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSImage+RoundCorner.h"; sourceTree = "<group>"; };
+		2542F1E513FEC016003B0614 /* NSImage+RoundCorner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSImage+RoundCorner.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2542F1BE13FEB126003B0614 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2542F1C613FEB126003B0614 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2542F1B613FEB126003B0614 = {
+			isa = PBXGroup;
+			children = (
+				2542F1CB13FEB126003B0614 /* Round Corner Image */,
+				2542F1C413FEB126003B0614 /* Frameworks */,
+				2542F1C213FEB126003B0614 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2542F1C213FEB126003B0614 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2542F1C113FEB126003B0614 /* Round Corner Image.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2542F1C413FEB126003B0614 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2542F1C513FEB126003B0614 /* Cocoa.framework */,
+				2542F1C713FEB126003B0614 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2542F1C713FEB126003B0614 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2542F1C813FEB126003B0614 /* AppKit.framework */,
+				2542F1C913FEB126003B0614 /* CoreData.framework */,
+				2542F1CA13FEB126003B0614 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		2542F1CB13FEB126003B0614 /* Round Corner Image */ = {
+			isa = PBXGroup;
+			children = (
+				2542F1E413FEC016003B0614 /* NSImage+RoundCorner.h */,
+				2542F1E513FEC016003B0614 /* NSImage+RoundCorner.m */,
+				2542F1D713FEB126003B0614 /* Round_Corner_ImageAppDelegate.h */,
+				2542F1D813FEB126003B0614 /* Round_Corner_ImageAppDelegate.m */,
+				2542F1DA13FEB126003B0614 /* MainMenu.xib */,
+				2542F1CC13FEB126003B0614 /* Supporting Files */,
+			);
+			path = "Round Corner Image";
+			sourceTree = "<group>";
+		};
+		2542F1CC13FEB126003B0614 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2542F1E213FEB3CD003B0614 /* image.jpg */,
+				2542F1CD13FEB126003B0614 /* Round Corner Image-Info.plist */,
+				2542F1CE13FEB126003B0614 /* InfoPlist.strings */,
+				2542F1D113FEB126003B0614 /* main.m */,
+				2542F1D313FEB126003B0614 /* Round Corner Image-Prefix.pch */,
+				2542F1D413FEB126003B0614 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2542F1C013FEB126003B0614 /* Round Corner Image */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2542F1DF13FEB126003B0614 /* Build configuration list for PBXNativeTarget "Round Corner Image" */;
+			buildPhases = (
+				2542F1BD13FEB126003B0614 /* Sources */,
+				2542F1BE13FEB126003B0614 /* Frameworks */,
+				2542F1BF13FEB126003B0614 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Round Corner Image";
+			productName = "Round Corner Image";
+			productReference = 2542F1C113FEB126003B0614 /* Round Corner Image.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2542F1B813FEB126003B0614 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = Home;
+			};
+			buildConfigurationList = 2542F1BB13FEB126003B0614 /* Build configuration list for PBXProject "Round Corner Image" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2542F1B613FEB126003B0614;
+			productRefGroup = 2542F1C213FEB126003B0614 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2542F1C013FEB126003B0614 /* Round Corner Image */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2542F1BF13FEB126003B0614 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2542F1D013FEB126003B0614 /* InfoPlist.strings in Resources */,
+				2542F1D613FEB126003B0614 /* Credits.rtf in Resources */,
+				2542F1DC13FEB126003B0614 /* MainMenu.xib in Resources */,
+				2542F1E313FEB3CD003B0614 /* image.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2542F1BD13FEB126003B0614 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2542F1D213FEB126003B0614 /* main.m in Sources */,
+				2542F1D913FEB126003B0614 /* Round_Corner_ImageAppDelegate.m in Sources */,
+				2542F1E613FEC016003B0614 /* NSImage+RoundCorner.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2542F1CE13FEB126003B0614 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2542F1CF13FEB126003B0614 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2542F1D413FEB126003B0614 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2542F1D513FEB126003B0614 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		2542F1DA13FEB126003B0614 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2542F1DB13FEB126003B0614 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2542F1DD13FEB126003B0614 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2542F1DE13FEB126003B0614 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2542F1E013FEB126003B0614 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Round Corner Image/Round Corner Image-Prefix.pch";
+				INFOPLIST_FILE = "Round Corner Image/Round Corner Image-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2542F1E113FEB126003B0614 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Round Corner Image/Round Corner Image-Prefix.pch";
+				INFOPLIST_FILE = "Round Corner Image/Round Corner Image-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2542F1BB13FEB126003B0614 /* Build configuration list for PBXProject "Round Corner Image" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2542F1DD13FEB126003B0614 /* Debug */,
+				2542F1DE13FEB126003B0614 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2542F1DF13FEB126003B0614 /* Build configuration list for PBXNativeTarget "Round Corner Image" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2542F1E013FEB126003B0614 /* Debug */,
+				2542F1E113FEB126003B0614 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2542F1B813FEB126003B0614 /* Project object */;
+}
