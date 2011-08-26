@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25F4E9B614080484002F7FD9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25F4E9B514080484002F7FD9 /* Cocoa.framework */; };
+		25F4E9C014080484002F7FD9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 25F4E9BE14080484002F7FD9 /* InfoPlist.strings */; };
+		25F4E9C214080484002F7FD9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25F4E9C114080484002F7FD9 /* main.m */; };
+		25F4E9C614080484002F7FD9 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 25F4E9C414080484002F7FD9 /* Credits.rtf */; };
+		25F4E9C914080484002F7FD9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25F4E9C814080484002F7FD9 /* AppDelegate.m */; };
+		25F4E9CC14080484002F7FD9 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25F4E9CA14080484002F7FD9 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		25F4E9B114080484002F7FD9 /* TitleBar Addons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TitleBar Addons.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		25F4E9B514080484002F7FD9 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		25F4E9B814080484002F7FD9 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		25F4E9B914080484002F7FD9 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		25F4E9BA14080484002F7FD9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		25F4E9BD14080484002F7FD9 /* TitleBar Addons-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TitleBar Addons-Info.plist"; sourceTree = "<group>"; };
+		25F4E9BF14080484002F7FD9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		25F4E9C114080484002F7FD9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		25F4E9C314080484002F7FD9 /* TitleBar Addons-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TitleBar Addons-Prefix.pch"; sourceTree = "<group>"; };
+		25F4E9C514080484002F7FD9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		25F4E9C714080484002F7FD9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		25F4E9C814080484002F7FD9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		25F4E9CB14080484002F7FD9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25F4E9AE14080484002F7FD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25F4E9B614080484002F7FD9 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25F4E9A614080483002F7FD9 = {
+			isa = PBXGroup;
+			children = (
+				25F4E9BB14080484002F7FD9 /* TitleBar Addons */,
+				25F4E9B414080484002F7FD9 /* Frameworks */,
+				25F4E9B214080484002F7FD9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		25F4E9B214080484002F7FD9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25F4E9B114080484002F7FD9 /* TitleBar Addons.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25F4E9B414080484002F7FD9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				25F4E9B514080484002F7FD9 /* Cocoa.framework */,
+				25F4E9B714080484002F7FD9 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		25F4E9B714080484002F7FD9 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				25F4E9B814080484002F7FD9 /* AppKit.framework */,
+				25F4E9B914080484002F7FD9 /* CoreData.framework */,
+				25F4E9BA14080484002F7FD9 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		25F4E9BB14080484002F7FD9 /* TitleBar Addons */ = {
+			isa = PBXGroup;
+			children = (
+				25F4E9C714080484002F7FD9 /* AppDelegate.h */,
+				25F4E9C814080484002F7FD9 /* AppDelegate.m */,
+				25F4E9CA14080484002F7FD9 /* MainMenu.xib */,
+				25F4E9BC14080484002F7FD9 /* Supporting Files */,
+			);
+			path = "TitleBar Addons";
+			sourceTree = "<group>";
+		};
+		25F4E9BC14080484002F7FD9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				25F4E9BD14080484002F7FD9 /* TitleBar Addons-Info.plist */,
+				25F4E9BE14080484002F7FD9 /* InfoPlist.strings */,
+				25F4E9C114080484002F7FD9 /* main.m */,
+				25F4E9C314080484002F7FD9 /* TitleBar Addons-Prefix.pch */,
+				25F4E9C414080484002F7FD9 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25F4E9B014080484002F7FD9 /* TitleBar Addons */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25F4E9CF14080484002F7FD9 /* Build configuration list for PBXNativeTarget "TitleBar Addons" */;
+			buildPhases = (
+				25F4E9AD14080484002F7FD9 /* Sources */,
+				25F4E9AE14080484002F7FD9 /* Frameworks */,
+				25F4E9AF14080484002F7FD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TitleBar Addons";
+			productName = "TitleBar Addons";
+			productReference = 25F4E9B114080484002F7FD9 /* TitleBar Addons.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25F4E9A814080483002F7FD9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = Home;
+			};
+			buildConfigurationList = 25F4E9AB14080483002F7FD9 /* Build configuration list for PBXProject "TitleBar Addons" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 25F4E9A614080483002F7FD9;
+			productRefGroup = 25F4E9B214080484002F7FD9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25F4E9B014080484002F7FD9 /* TitleBar Addons */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25F4E9AF14080484002F7FD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25F4E9C014080484002F7FD9 /* InfoPlist.strings in Resources */,
+				25F4E9C614080484002F7FD9 /* Credits.rtf in Resources */,
+				25F4E9CC14080484002F7FD9 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25F4E9AD14080484002F7FD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25F4E9C214080484002F7FD9 /* main.m in Sources */,
+				25F4E9C914080484002F7FD9 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		25F4E9BE14080484002F7FD9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25F4E9BF14080484002F7FD9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		25F4E9C414080484002F7FD9 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25F4E9C514080484002F7FD9 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		25F4E9CA14080484002F7FD9 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25F4E9CB14080484002F7FD9 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		25F4E9CD14080484002F7FD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		25F4E9CE14080484002F7FD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		25F4E9D014080484002F7FD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TitleBar Addons/TitleBar Addons-Prefix.pch";
+				INFOPLIST_FILE = "TitleBar Addons/TitleBar Addons-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		25F4E9D114080484002F7FD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TitleBar Addons/TitleBar Addons-Prefix.pch";
+				INFOPLIST_FILE = "TitleBar Addons/TitleBar Addons-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25F4E9AB14080483002F7FD9 /* Build configuration list for PBXProject "TitleBar Addons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25F4E9CD14080484002F7FD9 /* Debug */,
+				25F4E9CE14080484002F7FD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25F4E9CF14080484002F7FD9 /* Build configuration list for PBXNativeTarget "TitleBar Addons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25F4E9D014080484002F7FD9 /* Debug */,
+				25F4E9D114080484002F7FD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 25F4E9A814080483002F7FD9 /* Project object */;
+}
