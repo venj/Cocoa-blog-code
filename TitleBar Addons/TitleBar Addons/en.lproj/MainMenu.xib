@@ -1321,7 +1321,7 @@
 			</object>
 			<object class="NSCustomView" id="826183261">
 				<reference key="NSNextResponder"/>
-				<int key="NSvFlags">268</int>
+				<int key="NSvFlags">265</int>
 				<array class="NSMutableArray" key="NSSubviews">
 					<object class="NSButton" id="701097638">
 						<reference key="NSNextResponder" ref="826183261"/>
@@ -1329,7 +1329,6 @@
 						<string key="NSFrame">{{6, 2}, {119, 17}}</string>
 						<reference key="NSSuperview" ref="826183261"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView"/>
 						<string key="NSReuseIdentifierKey">_NS:2389</string>
 						<bool key="NSEnabled">YES</bool>
 						<object class="NSButtonCell" key="NSCell" id="9888122">
