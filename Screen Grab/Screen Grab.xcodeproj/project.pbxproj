@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25105920140FAEBE00BE22E0 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2510591F140FAEBE00BE22E0 /* Cocoa.framework */; };
+		2510592A140FAEBE00BE22E0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 25105928140FAEBE00BE22E0 /* InfoPlist.strings */; };
+		2510592C140FAEBE00BE22E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2510592B140FAEBE00BE22E0 /* main.m */; };
+		25105930140FAEBE00BE22E0 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2510592E140FAEBE00BE22E0 /* Credits.rtf */; };
+		25105933140FAEBE00BE22E0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25105932140FAEBE00BE22E0 /* AppDelegate.m */; };
+		25105936140FAEBE00BE22E0 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25105934140FAEBE00BE22E0 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2510591B140FAEBE00BE22E0 /* Screen Grab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Screen Grab.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2510591F140FAEBE00BE22E0 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		25105922140FAEBE00BE22E0 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		25105923140FAEBE00BE22E0 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		25105924140FAEBE00BE22E0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		25105927140FAEBE00BE22E0 /* Screen Grab-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Screen Grab-Info.plist"; sourceTree = "<group>"; };
+		25105929140FAEBE00BE22E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2510592B140FAEBE00BE22E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2510592D140FAEBE00BE22E0 /* Screen Grab-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Screen Grab-Prefix.pch"; sourceTree = "<group>"; };
+		2510592F140FAEBE00BE22E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		25105931140FAEBE00BE22E0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		25105932140FAEBE00BE22E0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		25105935140FAEBE00BE22E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25105918140FAEBE00BE22E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25105920140FAEBE00BE22E0 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25105910140FAEBD00BE22E0 = {
+			isa = PBXGroup;
+			children = (
+				25105925140FAEBE00BE22E0 /* Screen Grab */,
+				2510591E140FAEBE00BE22E0 /* Frameworks */,
+				2510591C140FAEBE00BE22E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2510591C140FAEBE00BE22E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2510591B140FAEBE00BE22E0 /* Screen Grab.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2510591E140FAEBE00BE22E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2510591F140FAEBE00BE22E0 /* Cocoa.framework */,
+				25105921140FAEBE00BE22E0 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		25105921140FAEBE00BE22E0 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				25105922140FAEBE00BE22E0 /* AppKit.framework */,
+				25105923140FAEBE00BE22E0 /* CoreData.framework */,
+				25105924140FAEBE00BE22E0 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		25105925140FAEBE00BE22E0 /* Screen Grab */ = {
+			isa = PBXGroup;
+			children = (
+				25105931140FAEBE00BE22E0 /* AppDelegate.h */,
+				25105932140FAEBE00BE22E0 /* AppDelegate.m */,
+				25105934140FAEBE00BE22E0 /* MainMenu.xib */,
+				25105926140FAEBE00BE22E0 /* Supporting Files */,
+			);
+			path = "Screen Grab";
+			sourceTree = "<group>";
+		};
+		25105926140FAEBE00BE22E0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				25105927140FAEBE00BE22E0 /* Screen Grab-Info.plist */,
+				25105928140FAEBE00BE22E0 /* InfoPlist.strings */,
+				2510592B140FAEBE00BE22E0 /* main.m */,
+				2510592D140FAEBE00BE22E0 /* Screen Grab-Prefix.pch */,
+				2510592E140FAEBE00BE22E0 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2510591A140FAEBE00BE22E0 /* Screen Grab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25105939140FAEBE00BE22E0 /* Build configuration list for PBXNativeTarget "Screen Grab" */;
+			buildPhases = (
+				25105917140FAEBE00BE22E0 /* Sources */,
+				25105918140FAEBE00BE22E0 /* Frameworks */,
+				25105919140FAEBE00BE22E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Screen Grab";
+			productName = "Screen Grab";
+			productReference = 2510591B140FAEBE00BE22E0 /* Screen Grab.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25105912140FAEBD00BE22E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = Home;
+			};
+			buildConfigurationList = 25105915140FAEBD00BE22E0 /* Build configuration list for PBXProject "Screen Grab" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 25105910140FAEBD00BE22E0;
+			productRefGroup = 2510591C140FAEBE00BE22E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2510591A140FAEBE00BE22E0 /* Screen Grab */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25105919140FAEBE00BE22E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2510592A140FAEBE00BE22E0 /* InfoPlist.strings in Resources */,
+				25105930140FAEBE00BE22E0 /* Credits.rtf in Resources */,
+				25105936140FAEBE00BE22E0 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25105917140FAEBE00BE22E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2510592C140FAEBE00BE22E0 /* main.m in Sources */,
+				25105933140FAEBE00BE22E0 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		25105928140FAEBE00BE22E0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25105929140FAEBE00BE22E0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2510592E140FAEBE00BE22E0 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2510592F140FAEBE00BE22E0 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		25105934140FAEBE00BE22E0 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25105935140FAEBE00BE22E0 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		25105937140FAEBE00BE22E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		25105938140FAEBE00BE22E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2510593A140FAEBE00BE22E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Screen Grab/Screen Grab-Prefix.pch";
+				INFOPLIST_FILE = "Screen Grab/Screen Grab-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2510593B140FAEBE00BE22E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Screen Grab/Screen Grab-Prefix.pch";
+				INFOPLIST_FILE = "Screen Grab/Screen Grab-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25105915140FAEBD00BE22E0 /* Build configuration list for PBXProject "Screen Grab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25105937140FAEBE00BE22E0 /* Debug */,
+				25105938140FAEBE00BE22E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25105939140FAEBE00BE22E0 /* Build configuration list for PBXNativeTarget "Screen Grab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2510593A140FAEBE00BE22E0 /* Debug */,
+				2510593B140FAEBE00BE22E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 25105912140FAEBD00BE22E0 /* Project object */;
+}

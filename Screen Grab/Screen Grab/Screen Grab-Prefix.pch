@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Screen Grab' target in the 'Screen Grab' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
