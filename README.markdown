@@ -7,6 +7,7 @@ This is the repository for sample code for my blog: (http://cocoapps.blogspot.co
 Projects & blog link:
 ---------------------
 
+* Screen Grab - http://cocoapps.blogspot.com/2011/09/cocoa.html (在Cocoa程序中进行屏幕截图)
 * TitleBar Addon - http://cocoapps.blogspot.com/2011/08/blog-post.html (在NSWindow窗口标题栏上绘制辅助视图)
 * Round Corner Image - http://cocoapps.blogspot.com/2011/08/quartznsimage.html (用Quartz绘制NSImage圆角图像) http://cocoapps.blogspot.com/2011/08/nsimage.html (获取NSImage图片的准确大小)
 * MyTestApp - http://cocoapps.blogspot.com/2011/08/ios.html (iOS项目的测试简介)
