@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2566CA741410EDD400710919 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2566CA731410EDD400710919 /* Cocoa.framework */; };
+		2566CA7E1410EDD400710919 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2566CA7C1410EDD400710919 /* InfoPlist.strings */; };
+		2566CA801410EDD400710919 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2566CA7F1410EDD400710919 /* main.m */; };
+		2566CA841410EDD400710919 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2566CA821410EDD400710919 /* Credits.rtf */; };
+		2566CA871410EDD400710919 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2566CA861410EDD400710919 /* AppDelegate.m */; };
+		2566CA8A1410EDD500710919 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2566CA881410EDD500710919 /* MainMenu.xib */; };
+		2566CA981410F9E800710919 /* DockIconView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2566CA971410F9E800710919 /* DockIconView.m */; };
+		2566CA9E1410FA5100710919 /* qqbadge.icns in Resources */ = {isa = PBXBuildFile; fileRef = 2566CA9B1410FA5100710919 /* qqbadge.icns */; };
+		2566CA9F1410FA5100710919 /* qq.icns in Resources */ = {isa = PBXBuildFile; fileRef = 2566CA9C1410FA5100710919 /* qq.icns */; };
+		2566CAA2141100DB00710919 /* DockIconBadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2566CAA1141100DB00710919 /* DockIconBadgeView.m */; };
+		2566CAA41411136600710919 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2566CAA31411136600710919 /* Icon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2566CA6F1410EDD400710919 /* Play With Dock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Play With Dock.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2566CA731410EDD400710919 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		2566CA761410EDD400710919 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		2566CA771410EDD400710919 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		2566CA781410EDD400710919 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2566CA7B1410EDD400710919 /* Play With Dock-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Play With Dock-Info.plist"; sourceTree = "<group>"; };
+		2566CA7D1410EDD400710919 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2566CA7F1410EDD400710919 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2566CA811410EDD400710919 /* Play With Dock-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Play With Dock-Prefix.pch"; sourceTree = "<group>"; };
+		2566CA831410EDD400710919 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		2566CA851410EDD400710919 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2566CA861410EDD400710919 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2566CA891410EDD500710919 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		2566CA961410F9E800710919 /* DockIconView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DockIconView.h; sourceTree = "<group>"; };
+		2566CA971410F9E800710919 /* DockIconView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DockIconView.m; sourceTree = "<group>"; };
+		2566CA9B1410FA5100710919 /* qqbadge.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = qqbadge.icns; sourceTree = "<group>"; };
+		2566CA9C1410FA5100710919 /* qq.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = qq.icns; sourceTree = "<group>"; };
+		2566CAA0141100DB00710919 /* DockIconBadgeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DockIconBadgeView.h; sourceTree = "<group>"; };
+		2566CAA1141100DB00710919 /* DockIconBadgeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DockIconBadgeView.m; sourceTree = "<group>"; };
+		2566CAA31411136600710919 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2566CA6C1410EDD400710919 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2566CA741410EDD400710919 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2566CA641410EDD400710919 = {
+			isa = PBXGroup;
+			children = (
+				2566CA791410EDD400710919 /* Play With Dock */,
+				2566CA721410EDD400710919 /* Frameworks */,
+				2566CA701410EDD400710919 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2566CA701410EDD400710919 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2566CA6F1410EDD400710919 /* Play With Dock.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2566CA721410EDD400710919 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2566CA731410EDD400710919 /* Cocoa.framework */,
+				2566CA751410EDD400710919 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2566CA751410EDD400710919 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2566CA761410EDD400710919 /* AppKit.framework */,
+				2566CA771410EDD400710919 /* CoreData.framework */,
+				2566CA781410EDD400710919 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		2566CA791410EDD400710919 /* Play With Dock */ = {
+			isa = PBXGroup;
+			children = (
+				2566CA851410EDD400710919 /* AppDelegate.h */,
+				2566CA861410EDD400710919 /* AppDelegate.m */,
+				2566CAA0141100DB00710919 /* DockIconBadgeView.h */,
+				2566CAA1141100DB00710919 /* DockIconBadgeView.m */,
+				2566CA961410F9E800710919 /* DockIconView.h */,
+				2566CA971410F9E800710919 /* DockIconView.m */,
+				2566CA881410EDD500710919 /* MainMenu.xib */,
+				2566CA7A1410EDD400710919 /* Supporting Files */,
+			);
+			path = "Play With Dock";
+			sourceTree = "<group>";
+		};
+		2566CA7A1410EDD400710919 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2566CA9B1410FA5100710919 /* qqbadge.icns */,
+				2566CA9C1410FA5100710919 /* qq.icns */,
+				2566CAA31411136600710919 /* Icon.png */,
+				2566CA7B1410EDD400710919 /* Play With Dock-Info.plist */,
+				2566CA7C1410EDD400710919 /* InfoPlist.strings */,
+				2566CA7F1410EDD400710919 /* main.m */,
+				2566CA811410EDD400710919 /* Play With Dock-Prefix.pch */,
+				2566CA821410EDD400710919 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2566CA6E1410EDD400710919 /* Play With Dock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2566CA8D1410EDD500710919 /* Build configuration list for PBXNativeTarget "Play With Dock" */;
+			buildPhases = (
+				2566CA6B1410EDD400710919 /* Sources */,
+				2566CA6C1410EDD400710919 /* Frameworks */,
+				2566CA6D1410EDD400710919 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Play With Dock";
+			productName = "Play With Dock";
+			productReference = 2566CA6F1410EDD400710919 /* Play With Dock.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2566CA661410EDD400710919 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = Home;
+			};
+			buildConfigurationList = 2566CA691410EDD400710919 /* Build configuration list for PBXProject "Play With Dock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2566CA641410EDD400710919;
+			productRefGroup = 2566CA701410EDD400710919 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2566CA6E1410EDD400710919 /* Play With Dock */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2566CA6D1410EDD400710919 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2566CA7E1410EDD400710919 /* InfoPlist.strings in Resources */,
+				2566CA841410EDD400710919 /* Credits.rtf in Resources */,
+				2566CA8A1410EDD500710919 /* MainMenu.xib in Resources */,
+				2566CA9E1410FA5100710919 /* qqbadge.icns in Resources */,
+				2566CA9F1410FA5100710919 /* qq.icns in Resources */,
+				2566CAA41411136600710919 /* Icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2566CA6B1410EDD400710919 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2566CA801410EDD400710919 /* main.m in Sources */,
+				2566CA871410EDD400710919 /* AppDelegate.m in Sources */,
+				2566CA981410F9E800710919 /* DockIconView.m in Sources */,
+				2566CAA2141100DB00710919 /* DockIconBadgeView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2566CA7C1410EDD400710919 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2566CA7D1410EDD400710919 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2566CA821410EDD400710919 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2566CA831410EDD400710919 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		2566CA881410EDD500710919 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2566CA891410EDD500710919 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2566CA8B1410EDD500710919 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2566CA8C1410EDD500710919 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2566CA8E1410EDD500710919 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Play With Dock/Play With Dock-Prefix.pch";
+				INFOPLIST_FILE = "Play With Dock/Play With Dock-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2566CA8F1410EDD500710919 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Play With Dock/Play With Dock-Prefix.pch";
+				INFOPLIST_FILE = "Play With Dock/Play With Dock-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2566CA691410EDD400710919 /* Build configuration list for PBXProject "Play With Dock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2566CA8B1410EDD500710919 /* Debug */,
+				2566CA8C1410EDD500710919 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2566CA8D1410EDD500710919 /* Build configuration list for PBXNativeTarget "Play With Dock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2566CA8E1410EDD500710919 /* Debug */,
+				2566CA8F1410EDD500710919 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2566CA661410EDD400710919 /* Project object */;
+}
