@@ -25,6 +25,10 @@
     // Insert code here to initialize your application
 }
 
+- (BOOL)applicationShouldTerminateAfterLastWindowClosed:(NSApplication *)sender {
+    return YES;
+}
+
 /* Uncomment to replace static dock menu with dymamic dock menu.
 // Dynamic Dock menu.
 - (NSMenu *)applicationDockMenu:(NSApplication *)sender {
