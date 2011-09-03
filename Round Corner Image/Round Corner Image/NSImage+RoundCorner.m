@@ -51,8 +51,12 @@ void addRoundedRectToPath(CGContextRef context, CGRect rect, float ovalWidth, fl
     CGImageRef imageMasked = CGBitmapContextCreateImage(context);
     CGContextRelease(context);
     CGColorSpaceRelease(colorSpace);
-    [self autorelease];
     
-    return [[[NSImage alloc] initWithCGImage:imageMasked size:self.size] autorelease];    
+    NSImage *tmpImage = [[NSImage alloc] initWithCGImage:imageMasked size:self.size];
+    NSData *imageData = [tmpImage TIFFRepresentation];
+    NSImage *image = [[NSImage alloc] initWithData:imageData];
+    [tmpImage release];
+    
+    return [image autorelease];
 }
 @end

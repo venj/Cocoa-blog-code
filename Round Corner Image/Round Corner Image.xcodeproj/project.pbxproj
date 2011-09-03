@@ -136,6 +136,7 @@
 		2542F1B813FEB126003B0614 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastUpgradeCheck = 0420;
 				ORGANIZATIONNAME = Home;
 			};
 			buildConfigurationList = 2542F1BB13FEB126003B0614 /* Build configuration list for PBXProject "Round Corner Image" */;
@@ -296,6 +297,7 @@
 				2542F1E113FEB126003B0614 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
