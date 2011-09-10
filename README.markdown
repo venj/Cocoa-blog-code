@@ -7,6 +7,7 @@ This is the repository for sample code for my blog: (http://cocoapps.blogspot.co
 Projects & blog link:
 ---------------------
 
+* http://cocoapps.blogspot.com/2011/09/applications.html (把程序移动到/Applications文件夹)
 * Play With Dock - http://cocoapps.blogspot.com/2011/09/cocoadock.html (在Cocoa里玩转Dock图标)
 * Screen Grab - http://cocoapps.blogspot.com/2011/09/cocoa.html (在Cocoa程序中进行屏幕截图)
 * TitleBar Addon - http://cocoapps.blogspot.com/2011/08/blog-post.html (在NSWindow窗口标题栏上绘制辅助视图)
