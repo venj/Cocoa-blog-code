@@ -1,0 +1,264 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2575654014BC1E1D00DA61E6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2575653F14BC1E1D00DA61E6 /* UIKit.framework */; };
+		2575654214BC1E1D00DA61E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2575654114BC1E1D00DA61E6 /* Foundation.framework */; };
+		2575654414BC1E1D00DA61E6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2575654314BC1E1D00DA61E6 /* CoreGraphics.framework */; };
+		2575654A14BC1E1D00DA61E6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2575654814BC1E1D00DA61E6 /* InfoPlist.strings */; };
+		2575654C14BC1E1D00DA61E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2575654B14BC1E1D00DA61E6 /* main.m */; };
+		2575655014BC1E1D00DA61E6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2575654F14BC1E1D00DA61E6 /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2575653B14BC1E1D00DA61E6 /* CustomURLScheme for iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CustomURLScheme for iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2575653F14BC1E1D00DA61E6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2575654114BC1E1D00DA61E6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2575654314BC1E1D00DA61E6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2575654714BC1E1D00DA61E6 /* CustomURLScheme for iOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CustomURLScheme for iOS-Info.plist"; sourceTree = "<group>"; };
+		2575654914BC1E1D00DA61E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2575654B14BC1E1D00DA61E6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2575654D14BC1E1D00DA61E6 /* CustomURLScheme for iOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CustomURLScheme for iOS-Prefix.pch"; sourceTree = "<group>"; };
+		2575654E14BC1E1D00DA61E6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2575654F14BC1E1D00DA61E6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2575653814BC1E1D00DA61E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2575654014BC1E1D00DA61E6 /* UIKit.framework in Frameworks */,
+				2575654214BC1E1D00DA61E6 /* Foundation.framework in Frameworks */,
+				2575654414BC1E1D00DA61E6 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2575653014BC1E1D00DA61E6 = {
+			isa = PBXGroup;
+			children = (
+				2575654514BC1E1D00DA61E6 /* CustomURLScheme for iOS */,
+				2575653E14BC1E1D00DA61E6 /* Frameworks */,
+				2575653C14BC1E1D00DA61E6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2575653C14BC1E1D00DA61E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2575653B14BC1E1D00DA61E6 /* CustomURLScheme for iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2575653E14BC1E1D00DA61E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2575653F14BC1E1D00DA61E6 /* UIKit.framework */,
+				2575654114BC1E1D00DA61E6 /* Foundation.framework */,
+				2575654314BC1E1D00DA61E6 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2575654514BC1E1D00DA61E6 /* CustomURLScheme for iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2575654E14BC1E1D00DA61E6 /* AppDelegate.h */,
+				2575654F14BC1E1D00DA61E6 /* AppDelegate.m */,
+				2575654614BC1E1D00DA61E6 /* Supporting Files */,
+			);
+			path = "CustomURLScheme for iOS";
+			sourceTree = "<group>";
+		};
+		2575654614BC1E1D00DA61E6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2575654714BC1E1D00DA61E6 /* CustomURLScheme for iOS-Info.plist */,
+				2575654814BC1E1D00DA61E6 /* InfoPlist.strings */,
+				2575654B14BC1E1D00DA61E6 /* main.m */,
+				2575654D14BC1E1D00DA61E6 /* CustomURLScheme for iOS-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2575653A14BC1E1D00DA61E6 /* CustomURLScheme for iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2575655314BC1E1D00DA61E6 /* Build configuration list for PBXNativeTarget "CustomURLScheme for iOS" */;
+			buildPhases = (
+				2575653714BC1E1D00DA61E6 /* Sources */,
+				2575653814BC1E1D00DA61E6 /* Frameworks */,
+				2575653914BC1E1D00DA61E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CustomURLScheme for iOS";
+			productName = "CustomURLScheme for iOS";
+			productReference = 2575653B14BC1E1D00DA61E6 /* CustomURLScheme for iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2575653214BC1E1D00DA61E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = Home;
+			};
+			buildConfigurationList = 2575653514BC1E1D00DA61E6 /* Build configuration list for PBXProject "CustomURLScheme for iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2575653014BC1E1D00DA61E6;
+			productRefGroup = 2575653C14BC1E1D00DA61E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2575653A14BC1E1D00DA61E6 /* CustomURLScheme for iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2575653914BC1E1D00DA61E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2575654A14BC1E1D00DA61E6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2575653714BC1E1D00DA61E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2575654C14BC1E1D00DA61E6 /* main.m in Sources */,
+				2575655014BC1E1D00DA61E6 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2575654814BC1E1D00DA61E6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2575654914BC1E1D00DA61E6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2575655114BC1E1D00DA61E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2575655214BC1E1D00DA61E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2575655414BC1E1D00DA61E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomURLScheme for iOS/CustomURLScheme for iOS-Prefix.pch";
+				INFOPLIST_FILE = "CustomURLScheme for iOS/CustomURLScheme for iOS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2575655514BC1E1D00DA61E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomURLScheme for iOS/CustomURLScheme for iOS-Prefix.pch";
+				INFOPLIST_FILE = "CustomURLScheme for iOS/CustomURLScheme for iOS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2575653514BC1E1D00DA61E6 /* Build configuration list for PBXProject "CustomURLScheme for iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2575655114BC1E1D00DA61E6 /* Debug */,
+				2575655214BC1E1D00DA61E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2575655314BC1E1D00DA61E6 /* Build configuration list for PBXNativeTarget "CustomURLScheme for iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2575655414BC1E1D00DA61E6 /* Debug */,
+				2575655514BC1E1D00DA61E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2575653214BC1E1D00DA61E6 /* Project object */;
+}

@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'CustomURLScheme' target in the 'CustomURLScheme' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
