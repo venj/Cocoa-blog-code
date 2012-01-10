@@ -6,3 +6,4 @@
 project.xcworkspace/
 xcuserdata/
 *.framework
+*.ttc
