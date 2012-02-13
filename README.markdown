@@ -7,6 +7,7 @@ This is the repository for sample code for my blog: (http://cocoapps.blogspot.co
 Projects & blog link:
 ---------------------
 
+* Paste Button - http://cocoa.venj.me/blog/copy-and-paste-to-text-field/ (点击按钮复制粘贴到文本框)
 * CustomURLScheme, CustomURLScheme for iOS - http://cocoa.venj.me/blog/custom-url-scheme-on-mac-and-ios/ (在Mac和iOS中注册自定义的URL Scheme)
 * iPhoneCustomFont - http://cocoa.venj.me/blog/custom-fonts-in-ios-apps/ (在iOS程序中使用自定义字体)
 * LetsMove - http://cocoa.venj.me/blog/move-app-to-application-folder-at-runtime/ (把程序移动到/Applications文件夹)

@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2519034114E8E5EB00B1C967 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2519034014E8E5EB00B1C967 /* Cocoa.framework */; };
+		2519034B14E8E5EB00B1C967 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2519034914E8E5EB00B1C967 /* InfoPlist.strings */; };
+		2519034D14E8E5EB00B1C967 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2519034C14E8E5EB00B1C967 /* main.m */; };
+		2519035114E8E5EB00B1C967 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2519034F14E8E5EB00B1C967 /* Credits.rtf */; };
+		2519035414E8E5EB00B1C967 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2519035314E8E5EB00B1C967 /* AppDelegate.m */; };
+		2519035714E8E5EC00B1C967 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2519035514E8E5EC00B1C967 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2519033C14E8E5EB00B1C967 /* Paste Button.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Paste Button.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2519034014E8E5EB00B1C967 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		2519034314E8E5EB00B1C967 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		2519034414E8E5EB00B1C967 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		2519034514E8E5EB00B1C967 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2519034814E8E5EB00B1C967 /* Paste Button-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Paste Button-Info.plist"; sourceTree = "<group>"; };
+		2519034A14E8E5EB00B1C967 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2519034C14E8E5EB00B1C967 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2519034E14E8E5EB00B1C967 /* Paste Button-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Paste Button-Prefix.pch"; sourceTree = "<group>"; };
+		2519035014E8E5EB00B1C967 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		2519035214E8E5EB00B1C967 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2519035314E8E5EB00B1C967 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2519035614E8E5EC00B1C967 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2519033914E8E5EB00B1C967 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2519034114E8E5EB00B1C967 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2519033114E8E5EB00B1C967 = {
+			isa = PBXGroup;
+			children = (
+				2519034614E8E5EB00B1C967 /* Paste Button */,
+				2519033F14E8E5EB00B1C967 /* Frameworks */,
+				2519033D14E8E5EB00B1C967 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2519033D14E8E5EB00B1C967 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2519033C14E8E5EB00B1C967 /* Paste Button.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2519033F14E8E5EB00B1C967 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2519034014E8E5EB00B1C967 /* Cocoa.framework */,
+				2519034214E8E5EB00B1C967 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2519034214E8E5EB00B1C967 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2519034314E8E5EB00B1C967 /* AppKit.framework */,
+				2519034414E8E5EB00B1C967 /* CoreData.framework */,
+				2519034514E8E5EB00B1C967 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		2519034614E8E5EB00B1C967 /* Paste Button */ = {
+			isa = PBXGroup;
+			children = (
+				2519035214E8E5EB00B1C967 /* AppDelegate.h */,
+				2519035314E8E5EB00B1C967 /* AppDelegate.m */,
+				2519035514E8E5EC00B1C967 /* MainMenu.xib */,
+				2519034714E8E5EB00B1C967 /* Supporting Files */,
+			);
+			path = "Paste Button";
+			sourceTree = "<group>";
+		};
+		2519034714E8E5EB00B1C967 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2519034814E8E5EB00B1C967 /* Paste Button-Info.plist */,
+				2519034914E8E5EB00B1C967 /* InfoPlist.strings */,
+				2519034C14E8E5EB00B1C967 /* main.m */,
+				2519034E14E8E5EB00B1C967 /* Paste Button-Prefix.pch */,
+				2519034F14E8E5EB00B1C967 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2519033B14E8E5EB00B1C967 /* Paste Button */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2519035A14E8E5EC00B1C967 /* Build configuration list for PBXNativeTarget "Paste Button" */;
+			buildPhases = (
+				2519033814E8E5EB00B1C967 /* Sources */,
+				2519033914E8E5EB00B1C967 /* Frameworks */,
+				2519033A14E8E5EB00B1C967 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Paste Button";
+			productName = "Paste Button";
+			productReference = 2519033C14E8E5EB00B1C967 /* Paste Button.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2519033314E8E5EB00B1C967 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = Home;
+			};
+			buildConfigurationList = 2519033614E8E5EB00B1C967 /* Build configuration list for PBXProject "Paste Button" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2519033114E8E5EB00B1C967;
+			productRefGroup = 2519033D14E8E5EB00B1C967 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2519033B14E8E5EB00B1C967 /* Paste Button */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2519033A14E8E5EB00B1C967 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2519034B14E8E5EB00B1C967 /* InfoPlist.strings in Resources */,
+				2519035114E8E5EB00B1C967 /* Credits.rtf in Resources */,
+				2519035714E8E5EC00B1C967 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2519033814E8E5EB00B1C967 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2519034D14E8E5EB00B1C967 /* main.m in Sources */,
+				2519035414E8E5EB00B1C967 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2519034914E8E5EB00B1C967 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2519034A14E8E5EB00B1C967 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2519034F14E8E5EB00B1C967 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2519035014E8E5EB00B1C967 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		2519035514E8E5EC00B1C967 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2519035614E8E5EC00B1C967 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2519035814E8E5EC00B1C967 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2519035914E8E5EC00B1C967 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2519035B14E8E5EC00B1C967 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Paste Button/Paste Button-Prefix.pch";
+				INFOPLIST_FILE = "Paste Button/Paste Button-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2519035C14E8E5EC00B1C967 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Paste Button/Paste Button-Prefix.pch";
+				INFOPLIST_FILE = "Paste Button/Paste Button-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2519033614E8E5EB00B1C967 /* Build configuration list for PBXProject "Paste Button" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2519035814E8E5EC00B1C967 /* Debug */,
+				2519035914E8E5EC00B1C967 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2519035A14E8E5EC00B1C967 /* Build configuration list for PBXNativeTarget "Paste Button" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2519035B14E8E5EC00B1C967 /* Debug */,
+				2519035C14E8E5EC00B1C967 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2519033314E8E5EB00B1C967 /* Project object */;
+}

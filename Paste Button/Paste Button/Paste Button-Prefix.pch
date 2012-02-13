@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Paste Button' target in the 'Paste Button' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
