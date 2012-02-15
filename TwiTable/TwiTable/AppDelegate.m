@@ -63,8 +63,17 @@ static NSString *arr[] = {@"This is just an example 1.",
 }
 
 - (NSRect)window:(NSWindow *)window willPositionSheet:(NSWindow *)sheet usingRect:(NSRect)rect {
-    id cell = [self.tableView rowViewAtRow:[self.tableView selectedRow] makeIfNecessary:YES];
-    NSRect cellRect = [cell frame];
+    // There are many ways to get the cellRect.
+    // Solution 1: 
+    // id cell = [self.tableView rowViewAtRow:[self.tableView selectedRow] makeIfNecessary:YES];
+    // NSRect cellRect = [cell frame];
+    // 
+    // Solution 2: (A little different to other two. See doc for detail. Not recommended.)
+    // NSRect cellRect = [self.tableView frameOfCellAtColumn:[self.tableView selectedColumn] row:[self.tableView selectedRow]];
+    // 
+    // Solution 3: (Recommend!)
+    NSRect cellRect = [self.tableView rectOfRow:[self.tableView selectedRow]];
+    
     NSRect scrollViewRect = [self.tableView.superview frame];
     cellRect.origin.y = scrollViewRect.size.height - cellRect.origin.y; // View based table view is flipped.
     cellRect.size.height = 0;
