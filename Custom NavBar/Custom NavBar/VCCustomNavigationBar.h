@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface VCCustomNavigationBar : UINavigationBar
+@property (nonatomic, strong) UIImageView *navigationBarBackgroundImage;
 @property (nonatomic, strong) UIImage *landscapeBarBackground;
 @property (nonatomic, strong) UIImage *portraitBarBackground;
 - (void)setBackgroundForDeviceOrientation:(UIDeviceOrientation)orientation;

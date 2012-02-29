@@ -46,8 +46,6 @@
 		25DF5B7614FDA8E400F23F36 /* VCCustomNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCCustomNavigationBar.m; sourceTree = "<group>"; };
 		25DF5B8814FDB8A200F23F36 /* portraitBarBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = portraitBarBackground.png; sourceTree = "<group>"; };
 		25DF5B8914FDB8A200F23F36 /* portraitBarBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "portraitBarBackground@2x.png"; sourceTree = "<group>"; };
-		25DF5B8C14FDBE3700F23F36 /* CustomNavigationBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomNavigationBar.h; sourceTree = "<group>"; };
-		25DF5B8D14FDBE3700F23F36 /* CustomNavigationBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomNavigationBar.m; sourceTree = "<group>"; };
 		25DF5B8E14FDBE9300F23F36 /* landscapeBarBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = landscapeBarBackground.png; sourceTree = "<group>"; };
 		25DF5B8F14FDBE9300F23F36 /* landscapeBarBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "landscapeBarBackground@2x.png"; sourceTree = "<group>"; };
 		25DF5B9314FDC05000F23F36 /* Window.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Window.xib; sourceTree = "<group>"; };
@@ -105,8 +103,6 @@
 				25DF5B6814FDA89A00F23F36 /* DetailViewController.m */,
 				25DF5B7514FDA8E400F23F36 /* VCCustomNavigationBar.h */,
 				25DF5B7614FDA8E400F23F36 /* VCCustomNavigationBar.m */,
-				25DF5B8C14FDBE3700F23F36 /* CustomNavigationBar.h */,
-				25DF5B8D14FDBE3700F23F36 /* CustomNavigationBar.m */,
 				25DF5B9314FDC05000F23F36 /* Window.xib */,
 				25DF5B6A14FDA89A00F23F36 /* MasterViewController.xib */,
 				25DF5B6D14FDA89A00F23F36 /* DetailViewController.xib */,
@@ -325,6 +321,7 @@
 				25DF5B7414FDA89A00F23F36 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,9 +7,6 @@
 //
 
 #import "VCCustomNavigationBar.h"
-@interface VCCustomNavigationBar()
-@property (nonatomic, strong) UIImageView *navigationBarBackgroundImage;
-@end
 
 @implementation VCCustomNavigationBar
 @synthesize navigationBarBackgroundImage = _navigationBarBackgroundImage;
