@@ -24,7 +24,6 @@
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        self.title = NSLocalizedString(@"Master", @"Master");
     }
     return self;
 }
@@ -43,6 +42,8 @@
     customBar.landscapeBarBackground = [UIImage imageNamed:@"landscapeBarBackground"];
     customBar.portraitBarBackground = [UIImage imageNamed:@"portraitBarBackground"];
     [customBar setBackgroundForDeviceOrientation:[[UIDevice currentDevice] orientation]];
+    
+    self.title = NSLocalizedString(@"Master", @"Master");
 }
 
 - (void)viewDidUnload
