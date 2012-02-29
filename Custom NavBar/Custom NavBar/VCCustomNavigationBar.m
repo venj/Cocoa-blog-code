@@ -59,7 +59,10 @@
 
 - (void)changeBackgroundImage:(NSNotification *)notification {
     UIDeviceOrientation currentOrientation = [[UIDevice currentDevice] orientation];
-    if (currentOrientation == UIDeviceOrientationPortraitUpsideDown) {
+    if ((currentOrientation == UIDeviceOrientationPortraitUpsideDown)
+        || (currentOrientation == UIDeviceOrientationFaceUp)
+        || (currentOrientation == UIDeviceOrientationFaceDown)
+        || (currentOrientation == UIDeviceOrientationUnknown)) {
         return;
     }
     [self setBackgroundForDeviceOrientation:currentOrientation];

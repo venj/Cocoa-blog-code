@@ -7,6 +7,7 @@
 //
 
 #import "DetailViewController.h"
+#import "VCTranslucentBarButtonItem.h"
 
 @interface DetailViewController ()
 - (void)configureView;
@@ -36,6 +37,14 @@
     if (self.detailItem) {
         self.detailDescriptionLabel.text = [self.detailItem description];
     }
+    
+    VCTranslucentBarButtonItem *item = [[VCTranslucentBarButtonItem alloc] initWithType:VCTranslucentBarButtonItemTypeBackward title:@"Test Button" target:self action:@selector(buttonClicked)];
+    self.navigationItem.rightBarButtonItem = item;
+
+}
+
+- (void)buttonClicked {
+    NSLog(@"you are done!");
 }
 
 - (void)viewDidLoad

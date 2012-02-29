@@ -23,6 +23,19 @@
 		25DF5B9014FDBE9300F23F36 /* landscapeBarBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 25DF5B8E14FDBE9300F23F36 /* landscapeBarBackground.png */; };
 		25DF5B9114FDBE9300F23F36 /* landscapeBarBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 25DF5B8F14FDBE9300F23F36 /* landscapeBarBackground@2x.png */; };
 		25DF5B9414FDC05000F23F36 /* Window.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25DF5B9314FDC05000F23F36 /* Window.xib */; };
+		25DF5BE914FDE78B00F23F36 /* VCTranslucentBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DF5BE814FDE78B00F23F36 /* VCTranslucentBarButtonItem.m */; };
+		25DF5BF114FDEB8D00F23F36 /* backwardbutton_landscape@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 25DF5BEB14FDEB8D00F23F36 /* backwardbutton_landscape@2x.png */; };
+		25DF5BF214FDEB8D00F23F36 /* normalbutton_landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 25DF5BEC14FDEB8D00F23F36 /* normalbutton_landscape.png */; };
+		25DF5BF314FDEB8D00F23F36 /* backwardbutton_landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 25DF5BED14FDEB8D00F23F36 /* backwardbutton_landscape.png */; };
+		25DF5BF414FDEB8D00F23F36 /* forwardbutton_landscape@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 25DF5BEE14FDEB8D00F23F36 /* forwardbutton_landscape@2x.png */; };
+		25DF5BF514FDEB8D00F23F36 /* forwardbutton_landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 25DF5BEF14FDEB8D00F23F36 /* forwardbutton_landscape.png */; };
+		25DF5BF614FDEB8D00F23F36 /* normalbutton_landscape@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 25DF5BF014FDEB8D00F23F36 /* normalbutton_landscape@2x.png */; };
+		25DF5BFD14FDEB9D00F23F36 /* backwardbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 25DF5BF714FDEB9D00F23F36 /* backwardbutton.png */; };
+		25DF5BFE14FDEB9D00F23F36 /* backwardbutton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 25DF5BF814FDEB9D00F23F36 /* backwardbutton@2x.png */; };
+		25DF5BFF14FDEB9D00F23F36 /* forwardbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 25DF5BF914FDEB9D00F23F36 /* forwardbutton.png */; };
+		25DF5C0014FDEB9D00F23F36 /* forwardbutton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 25DF5BFA14FDEB9D00F23F36 /* forwardbutton@2x.png */; };
+		25DF5C0114FDEB9D00F23F36 /* normalbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 25DF5BFB14FDEB9D00F23F36 /* normalbutton.png */; };
+		25DF5C0214FDEB9D00F23F36 /* normalbutton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 25DF5BFC14FDEB9D00F23F36 /* normalbutton@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +62,20 @@
 		25DF5B8E14FDBE9300F23F36 /* landscapeBarBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = landscapeBarBackground.png; sourceTree = "<group>"; };
 		25DF5B8F14FDBE9300F23F36 /* landscapeBarBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "landscapeBarBackground@2x.png"; sourceTree = "<group>"; };
 		25DF5B9314FDC05000F23F36 /* Window.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Window.xib; sourceTree = "<group>"; };
+		25DF5BE714FDE78B00F23F36 /* VCTranslucentBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCTranslucentBarButtonItem.h; sourceTree = "<group>"; };
+		25DF5BE814FDE78B00F23F36 /* VCTranslucentBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCTranslucentBarButtonItem.m; sourceTree = "<group>"; };
+		25DF5BEB14FDEB8D00F23F36 /* backwardbutton_landscape@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backwardbutton_landscape@2x.png"; sourceTree = "<group>"; };
+		25DF5BEC14FDEB8D00F23F36 /* normalbutton_landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = normalbutton_landscape.png; sourceTree = "<group>"; };
+		25DF5BED14FDEB8D00F23F36 /* backwardbutton_landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backwardbutton_landscape.png; sourceTree = "<group>"; };
+		25DF5BEE14FDEB8D00F23F36 /* forwardbutton_landscape@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "forwardbutton_landscape@2x.png"; sourceTree = "<group>"; };
+		25DF5BEF14FDEB8D00F23F36 /* forwardbutton_landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forwardbutton_landscape.png; sourceTree = "<group>"; };
+		25DF5BF014FDEB8D00F23F36 /* normalbutton_landscape@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "normalbutton_landscape@2x.png"; sourceTree = "<group>"; };
+		25DF5BF714FDEB9D00F23F36 /* backwardbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backwardbutton.png; sourceTree = "<group>"; };
+		25DF5BF814FDEB9D00F23F36 /* backwardbutton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backwardbutton@2x.png"; sourceTree = "<group>"; };
+		25DF5BF914FDEB9D00F23F36 /* forwardbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forwardbutton.png; sourceTree = "<group>"; };
+		25DF5BFA14FDEB9D00F23F36 /* forwardbutton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "forwardbutton@2x.png"; sourceTree = "<group>"; };
+		25DF5BFB14FDEB9D00F23F36 /* normalbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = normalbutton.png; sourceTree = "<group>"; };
+		25DF5BFC14FDEB9D00F23F36 /* normalbutton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "normalbutton@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +124,8 @@
 			children = (
 				25DF5B6114FDA89A00F23F36 /* AppDelegate.h */,
 				25DF5B6214FDA89A00F23F36 /* AppDelegate.m */,
+				25DF5BE714FDE78B00F23F36 /* VCTranslucentBarButtonItem.h */,
+				25DF5BE814FDE78B00F23F36 /* VCTranslucentBarButtonItem.m */,
 				25DF5B6414FDA89A00F23F36 /* MasterViewController.h */,
 				25DF5B6514FDA89A00F23F36 /* MasterViewController.m */,
 				25DF5B6714FDA89A00F23F36 /* DetailViewController.h */,
@@ -114,6 +143,18 @@
 		25DF5B5914FDA89A00F23F36 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				25DF5BF714FDEB9D00F23F36 /* backwardbutton.png */,
+				25DF5BF814FDEB9D00F23F36 /* backwardbutton@2x.png */,
+				25DF5BF914FDEB9D00F23F36 /* forwardbutton.png */,
+				25DF5BFA14FDEB9D00F23F36 /* forwardbutton@2x.png */,
+				25DF5BFB14FDEB9D00F23F36 /* normalbutton.png */,
+				25DF5BFC14FDEB9D00F23F36 /* normalbutton@2x.png */,
+				25DF5BEB14FDEB8D00F23F36 /* backwardbutton_landscape@2x.png */,
+				25DF5BEC14FDEB8D00F23F36 /* normalbutton_landscape.png */,
+				25DF5BED14FDEB8D00F23F36 /* backwardbutton_landscape.png */,
+				25DF5BEE14FDEB8D00F23F36 /* forwardbutton_landscape@2x.png */,
+				25DF5BEF14FDEB8D00F23F36 /* forwardbutton_landscape.png */,
+				25DF5BF014FDEB8D00F23F36 /* normalbutton_landscape@2x.png */,
 				25DF5B8814FDB8A200F23F36 /* portraitBarBackground.png */,
 				25DF5B8914FDB8A200F23F36 /* portraitBarBackground@2x.png */,
 				25DF5B8E14FDBE9300F23F36 /* landscapeBarBackground.png */,
@@ -185,6 +226,18 @@
 				25DF5B9014FDBE9300F23F36 /* landscapeBarBackground.png in Resources */,
 				25DF5B9114FDBE9300F23F36 /* landscapeBarBackground@2x.png in Resources */,
 				25DF5B9414FDC05000F23F36 /* Window.xib in Resources */,
+				25DF5BF114FDEB8D00F23F36 /* backwardbutton_landscape@2x.png in Resources */,
+				25DF5BF214FDEB8D00F23F36 /* normalbutton_landscape.png in Resources */,
+				25DF5BF314FDEB8D00F23F36 /* backwardbutton_landscape.png in Resources */,
+				25DF5BF414FDEB8D00F23F36 /* forwardbutton_landscape@2x.png in Resources */,
+				25DF5BF514FDEB8D00F23F36 /* forwardbutton_landscape.png in Resources */,
+				25DF5BF614FDEB8D00F23F36 /* normalbutton_landscape@2x.png in Resources */,
+				25DF5BFD14FDEB9D00F23F36 /* backwardbutton.png in Resources */,
+				25DF5BFE14FDEB9D00F23F36 /* backwardbutton@2x.png in Resources */,
+				25DF5BFF14FDEB9D00F23F36 /* forwardbutton.png in Resources */,
+				25DF5C0014FDEB9D00F23F36 /* forwardbutton@2x.png in Resources */,
+				25DF5C0114FDEB9D00F23F36 /* normalbutton.png in Resources */,
+				25DF5C0214FDEB9D00F23F36 /* normalbutton@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,6 +253,7 @@
 				25DF5B6614FDA89A00F23F36 /* MasterViewController.m in Sources */,
 				25DF5B6914FDA89A00F23F36 /* DetailViewController.m in Sources */,
 				25DF5B7714FDA8E400F23F36 /* VCCustomNavigationBar.m in Sources */,
+				25DF5BE914FDE78B00F23F36 /* VCTranslucentBarButtonItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
