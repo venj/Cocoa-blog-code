@@ -39,12 +39,12 @@
     }
     
     if ((orientation == UIDeviceOrientationLandscapeLeft) || (orientation == UIDeviceOrientationLandscapeRight)) {
-        originalImage = [UIImage imageNamed:[NSString stringWithFormat:@"%@_landscape", filename]];
+        filename = [NSString stringWithFormat:@"%@_landscape", filename];
     }
-    else {
-        originalImage = [UIImage imageNamed:filename];
-    }
-    if ([[UIImage class] respondsToSelector:@selector(resizableImageWithCapInsets:)]) {
+    
+    originalImage = [UIImage imageNamed:filename];
+    
+    if ([originalImage respondsToSelector:@selector(resizableImageWithCapInsets:)]) {
         buttonImage = [originalImage resizableImageWithCapInsets:UIEdgeInsetsMake(0, leftcap, 0, rightcap)];
     }
     else {

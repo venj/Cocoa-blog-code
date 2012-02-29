@@ -39,12 +39,12 @@
     }
     
     VCTranslucentBarButtonItem *item = [[VCTranslucentBarButtonItem alloc] initWithType:VCTranslucentBarButtonItemTypeBackward title:@"Test Button" target:self action:@selector(buttonClicked)];
-    self.navigationItem.rightBarButtonItem = item;
+    self.navigationItem.leftBarButtonItem = item;
 
 }
 
 - (void)buttonClicked {
-    NSLog(@"you are done!");
+    [self.navigationController popViewControllerAnimated:YES];
 }
 
 - (void)viewDidLoad

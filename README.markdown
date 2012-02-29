@@ -7,7 +7,8 @@ This is the repository for sample code for my blog: (http://cocoapps.blogspot.co
 Projects & blog link:
 ---------------------
 
-* Custom NavBar - http://cocoa.venj.me/blog/more-on-navigationbar-customization/ (再谈iOS 4下NavigationBar的自定义)
+* Custom NavBar - http://cocoa.venj.me/blog/custom-barbuttomitem-for-ios4/ (在iOS 4中自定义BarButtonItem)
+  http://cocoa.venj.me/blog/more-on-navigationbar-customization/ (再谈iOS 4下NavigationBar的自定义)
 * TwiTable - http://cocoa.venj.me/blog/twitter-style-sheet-positioning/ (Twitter for Mac风格的Sheet定位)
 * Paste Button - http://cocoa.venj.me/blog/copy-and-paste-to-text-field/ (点击按钮复制粘贴到文本框)
 * CustomURLScheme, CustomURLScheme for iOS - http://cocoa.venj.me/blog/custom-url-scheme-on-mac-and-ios/ (在Mac和iOS中注册自定义的URL Scheme)
