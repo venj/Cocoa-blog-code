@@ -1,0 +1,357 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25FDC9A41507408200335C51 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25FDC9A31507408200335C51 /* Cocoa.framework */; };
+		25FDC9AE1507408200335C51 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 25FDC9AC1507408200335C51 /* InfoPlist.strings */; };
+		25FDC9B01507408200335C51 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25FDC9AF1507408200335C51 /* main.m */; };
+		25FDC9B41507408200335C51 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 25FDC9B21507408200335C51 /* Credits.rtf */; };
+		25FDC9B71507408200335C51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25FDC9B61507408200335C51 /* AppDelegate.m */; };
+		25FDC9BA1507408200335C51 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25FDC9B81507408200335C51 /* MainMenu.xib */; };
+		25FDC9C1150740B700335C51 /* Growl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25FDC9C0150740B700335C51 /* Growl.framework */; };
+		25FDC9C3150740F100335C51 /* Growl Registration Ticket.growlRegDict in Resources */ = {isa = PBXBuildFile; fileRef = 25FDC9C2150740F100335C51 /* Growl Registration Ticket.growlRegDict */; };
+		25FDC9C51507422900335C51 /* Growl.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 25FDC9C0150740B700335C51 /* Growl.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		25FDC9C41507422100335C51 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				25FDC9C51507422900335C51 /* Growl.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		25FDC99F1507408200335C51 /* Growl Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Growl Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		25FDC9A31507408200335C51 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		25FDC9A61507408200335C51 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		25FDC9A71507408200335C51 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		25FDC9A81507408200335C51 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		25FDC9AB1507408200335C51 /* Growl Test-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Growl Test-Info.plist"; sourceTree = "<group>"; };
+		25FDC9AD1507408200335C51 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		25FDC9AF1507408200335C51 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		25FDC9B11507408200335C51 /* Growl Test-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Growl Test-Prefix.pch"; sourceTree = "<group>"; };
+		25FDC9B31507408200335C51 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		25FDC9B51507408200335C51 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		25FDC9B61507408200335C51 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		25FDC9B91507408200335C51 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		25FDC9C0150740B700335C51 /* Growl.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Growl.framework; sourceTree = "<group>"; };
+		25FDC9C2150740F100335C51 /* Growl Registration Ticket.growlRegDict */ = {isa = PBXFileReference; explicitFileType = text.plist.xml; fileEncoding = 4; path = "Growl Registration Ticket.growlRegDict"; sourceTree = "<group>"; };
+		25FDC9D81507434E00335C51 /* Growl Test.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Growl Test.entitlements"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25FDC99C1507408200335C51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25FDC9A41507408200335C51 /* Cocoa.framework in Frameworks */,
+				25FDC9C1150740B700335C51 /* Growl.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25FDC9941507408200335C51 = {
+			isa = PBXGroup;
+			children = (
+				25FDC9A91507408200335C51 /* Growl Test */,
+				25FDC9A21507408200335C51 /* Frameworks */,
+				25FDC9A01507408200335C51 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		25FDC9A01507408200335C51 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25FDC99F1507408200335C51 /* Growl Test.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25FDC9A21507408200335C51 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				25FDC9C0150740B700335C51 /* Growl.framework */,
+				25FDC9A31507408200335C51 /* Cocoa.framework */,
+				25FDC9A51507408200335C51 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		25FDC9A51507408200335C51 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				25FDC9A61507408200335C51 /* AppKit.framework */,
+				25FDC9A71507408200335C51 /* CoreData.framework */,
+				25FDC9A81507408200335C51 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		25FDC9A91507408200335C51 /* Growl Test */ = {
+			isa = PBXGroup;
+			children = (
+				25FDC9D81507434E00335C51 /* Growl Test.entitlements */,
+				25FDC9B51507408200335C51 /* AppDelegate.h */,
+				25FDC9B61507408200335C51 /* AppDelegate.m */,
+				25FDC9C2150740F100335C51 /* Growl Registration Ticket.growlRegDict */,
+				25FDC9B81507408200335C51 /* MainMenu.xib */,
+				25FDC9AA1507408200335C51 /* Supporting Files */,
+			);
+			path = "Growl Test";
+			sourceTree = "<group>";
+		};
+		25FDC9AA1507408200335C51 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				25FDC9AB1507408200335C51 /* Growl Test-Info.plist */,
+				25FDC9AC1507408200335C51 /* InfoPlist.strings */,
+				25FDC9AF1507408200335C51 /* main.m */,
+				25FDC9B11507408200335C51 /* Growl Test-Prefix.pch */,
+				25FDC9B21507408200335C51 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25FDC99E1507408200335C51 /* Growl Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25FDC9BD1507408200335C51 /* Build configuration list for PBXNativeTarget "Growl Test" */;
+			buildPhases = (
+				25FDC99B1507408200335C51 /* Sources */,
+				25FDC99C1507408200335C51 /* Frameworks */,
+				25FDC99D1507408200335C51 /* Resources */,
+				25FDC9C41507422100335C51 /* CopyFiles */,
+				25FDC9D71507430400335C51 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Growl Test";
+			productName = "Growl Test";
+			productReference = 25FDC99F1507408200335C51 /* Growl Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25FDC9961507408200335C51 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = Home;
+			};
+			buildConfigurationList = 25FDC9991507408200335C51 /* Build configuration list for PBXProject "Growl Test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 25FDC9941507408200335C51;
+			productRefGroup = 25FDC9A01507408200335C51 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25FDC99E1507408200335C51 /* Growl Test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25FDC99D1507408200335C51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25FDC9AE1507408200335C51 /* InfoPlist.strings in Resources */,
+				25FDC9B41507408200335C51 /* Credits.rtf in Resources */,
+				25FDC9BA1507408200335C51 /* MainMenu.xib in Resources */,
+				25FDC9C3150740F100335C51 /* Growl Registration Ticket.growlRegDict in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		25FDC9D71507430400335C51 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "XPC_START=\"$BUILT_PRODUCTS_DIR\"\nXPC_SCRIPT=\"$SRCROOT/XPC Client/xpc-rename-move.rb\"\nruby \"$XPC_SCRIPT\" \"$SRCROOT/XPC Client/\" \"$BUILT_PRODUCTS_DIR/$WRAPPER_NAME\" \"$CODE_SIGN_IDENTITY\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25FDC99B1507408200335C51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25FDC9B01507408200335C51 /* main.m in Sources */,
+				25FDC9B71507408200335C51 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		25FDC9AC1507408200335C51 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25FDC9AD1507408200335C51 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		25FDC9B21507408200335C51 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25FDC9B31507408200335C51 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		25FDC9B81507408200335C51 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25FDC9B91507408200335C51 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		25FDC9BB1507408200335C51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		25FDC9BC1507408200335C51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		25FDC9BE1507408200335C51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Growl Test/Growl Test.entitlements";
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Growl Test/Growl Test-Prefix.pch";
+				INFOPLIST_FILE = "Growl Test/Growl Test-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		25FDC9BF1507408200335C51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Growl Test/Growl Test.entitlements";
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Growl Test/Growl Test-Prefix.pch";
+				INFOPLIST_FILE = "Growl Test/Growl Test-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25FDC9991507408200335C51 /* Build configuration list for PBXProject "Growl Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25FDC9BB1507408200335C51 /* Debug */,
+				25FDC9BC1507408200335C51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25FDC9BD1507408200335C51 /* Build configuration list for PBXNativeTarget "Growl Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25FDC9BE1507408200335C51 /* Debug */,
+				25FDC9BF1507408200335C51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 25FDC9961507408200335C51 /* Project object */;
+}
