@@ -7,7 +7,7 @@ This is the repository for sample code for [my blog](http://cocoa.venj.me).
 Projects & blog link:
 ---------------------
 
-* Growl Test - http://cocoa.venj.me/blog/add-growl-to-your-sandboxed-app/ (在Sandbox的程序中假如Growl支持)
+* Growl Test - http://cocoa.venj.me/blog/add-growl-to-your-sandboxed-app/ (在Sandbox的程序中加入Growl支持)
 * Custom NavBar - http://cocoa.venj.me/blog/custom-barbuttomitem-for-ios4/ (在iOS 4中自定义BarButtonItem)
   http://cocoa.venj.me/blog/more-on-navigationbar-customization/ (再谈iOS 4下NavigationBar的自定义)
 * TwiTable - http://cocoa.venj.me/blog/twitter-style-sheet-positioning/ (Twitter for Mac风格的Sheet定位)
