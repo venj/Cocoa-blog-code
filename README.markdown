@@ -1,7 +1,7 @@
 Read me
 =======
 
-This is the repository for sample code for my blog: (http://cocoapps.blogspot.com).
+This is the repository for sample code for my [blog](http://cocoa.venj.me).
 
 
 Projects & blog link:
