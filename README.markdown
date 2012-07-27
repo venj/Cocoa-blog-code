@@ -30,6 +30,3 @@ Projects & blog link:
 * RTF2HTML - http://cocoa.venj.me/blog/talk-about-nsattributesstring-to-html-again/ (再谈NSAttributedString转HTML)
 * GrowlTest - http://cocoa.venj.me/blog/add-growl-support-in-your-apps-add-growl-framework/ (为应用程序增加Growl支持（上）：在项目中加入Growl.Framework)
   http://cocoa.venj.me/blog/add-growl-support-in-your-apps-coding-growl/ (为应用程序增加Growl支持（下）：在代码中应用Growl)
-
-
-More projects to come.
