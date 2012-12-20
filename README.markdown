@@ -7,6 +7,7 @@ This is the repository for sample code for [my blog](http://cocoa.venj.me).
 Projects & blog link:
 ---------------------
 
+* RefreshControl - http://cocoa.venj.me/blog/refresh-control-gochas/ (用代码触发下拉更新)
 * Custom Menu - http://cocoa.venj.me/blog/make-a-qq-mac-avatar-menu-clone/ (山寨一下QQ for Mac样式的头像选择菜单)
 * Bounce Icon - http://cocoa.venj.me/blog/bounce-dock-icon/ (跳动Dock图标的实现)
 * Growl Test - http://cocoa.venj.me/blog/add-growl-to-your-sandboxed-app/ (在Sandbox的程序中加入Growl支持)
