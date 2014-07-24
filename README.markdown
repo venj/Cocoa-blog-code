@@ -7,6 +7,7 @@ This is the repository for sample code for [my blog](http://cocoa.venj.me).
 Projects & blog link:
 ---------------------
 
+* NavStatusStyle - http://cocoa.venj.me/blog/view-controller-based-status-bar-style-and-uinavigationcontroller/ (UINavigationController和View Controller-based状态栏风格)
 * Loading Screen - http://cocoa.venj.me/blog/localized-loading-screen/ (本地化加载屏幕)
 * RefreshControl - http://cocoa.venj.me/blog/refresh-control-gochas/ (用代码触发下拉更新)
 * Custom Menu - http://cocoa.venj.me/blog/make-a-qq-mac-avatar-menu-clone/ (山寨一下QQ for Mac样式的头像选择菜单)
